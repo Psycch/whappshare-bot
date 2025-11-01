@@ -38,7 +38,7 @@ user_data = {}
 # === Start command ===
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
-        [InlineKeyboardButton("1️⃣ Register", callback_data="register")],
+       [InlineKeyboardButton("1️⃣ Register", url="https://whappshare.com/?code=20KfAl7PS1k")],
         [InlineKeyboardButton("2️⃣ Become Agent", callback_data="agent")],
         [InlineKeyboardButton("3️⃣ Exchange USDT", callback_data="exchange")],
         [InlineKeyboardButton("4️⃣ Become Payment Partner", callback_data="partner")],
@@ -142,3 +142,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
